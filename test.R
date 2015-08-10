@@ -9,3 +9,4 @@ rPlot(SepalLength ~ SepalWidth | Species, data = iris, color = 'Species', type =
 hair_eye = as.data.frame(HairEyeColor)
 rPlot(Freq ~ Hair | Eye, color = 'Eye', data = hair_eye, type = 'bar')
 
+
