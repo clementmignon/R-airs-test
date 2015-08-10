@@ -11,4 +11,4 @@ rPlot(Freq ~ Hair | Eye, color = 'Eye', data = hair_eye, type = 'bar')
 
 
 
-aaa
+aaa222
