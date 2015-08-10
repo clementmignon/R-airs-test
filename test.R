@@ -8,5 +8,3 @@ rPlot(SepalLength ~ SepalWidth | Species, data = iris, color = 'Species', type =
 ## Example 2 Facetted Barplot
 hair_eye = as.data.frame(HairEyeColor)
 rPlot(Freq ~ Hair | Eye, color = 'Eye', data = hair_eye, type = 'bar')
-
-
